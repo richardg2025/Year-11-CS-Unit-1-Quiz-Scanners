@@ -24,12 +24,13 @@ public class Scanners {
 
         // 7.
         int age = scanner.nextInt();
+        scanner.nextLine();
 
         // 8.
         System.out.println("Please enter your favorite song: ");
 
         // 9.
-        String favSong = scanner.next();
+        String favSong = scanner.nextLine();
 
         // 10.
         String info = "Hi, my name is " + firstName + " " + lastName + ". I am " + age + " years old and my favourite song is " + favSong + ".";
